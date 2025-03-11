@@ -26,9 +26,10 @@ public class User {
         this.email = email; 
     }
 
-    public void updateEmail(String newEmail) { 
-        this.email = email; 
-    }
+    public void updateEmail(String newEmail) {  
+        this.email = newEmail;  
+}
+
 }
 
 
